@@ -20,18 +20,18 @@ You can run the Server.py, installation needed:
 
 
 ## Client
-Follow the instructions [here](https://github.com/Jenny-Smolenksy/speech-rate-client) to load the client
+Follow the instructions [here](https://github.com/Jenny-Smolensky/speech-rate-client) to load the client
 
 ## How it works?
 
 The server is written in python using Flask
-It works on port 8000 and get post request from the [client](https://github.com/Jenny-Smolenksy/speech-rate-client)
+It works on port 8000 and get post request from the [client](https://github.com/Jenny-Smolensky/speech-rate-client)
 
 It use a model to predict SPS (Syllable Per Second) in the audio file from the request
 
 You are able to change the model by changing in modelTest argumnets from 'YOLO' to 'CLASSIFICATION'
 For farther documentation see:
-* [Multiclass model](https://github.com/Jenny-Smolenksy/ClassificationSpeechNet)
+* [Multiclass model](https://github.com/Jenny-Smolensky/ClassificationSpeechNet)
 * [Hybrid Yolo Model](https://github.com/almog1/SpeechVowelsNet)
 
 
